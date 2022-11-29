@@ -28,3 +28,7 @@
 .btn-prev-next {
   @apply bg-[#1BA0E1] text-white disabled:bg-[#F1F1F1] disabled:text-[#B6B6B6];
 }
+
+.h3 {
+  @apply text-4xl font-medium text-[#029FE4];
+}

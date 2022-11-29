@@ -1,6 +1,7 @@
 import Logo from './components/atoms/Logo';
 import AboutUsSection from './components/organisms/AboutUsSection';
 import HeroSection from './components/organisms/HeroSection';
+import OurCoreValuesSection from './components/organisms/OurCoreValuesSection';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       </nav>
       <HeroSection />
       <AboutUsSection />
+      <OurCoreValuesSection />
     </main>
   );
 }

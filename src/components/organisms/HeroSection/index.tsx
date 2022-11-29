@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <section>
+    <section id="home">
       <img src="/img/bg-hero.png" alt="" className="relative z-[5]" />
       <div className="relative z-10 -mt-[90px]">
         <div className="relative h-[90px]">
@@ -18,9 +18,9 @@ const HeroSection = () => {
           </p>
         </div>
         <div className="absolute -bottom-5 flex w-full justify-center">
-          <button className="btn-square rounded-full bg-white p-0 shadow-md">
+          <a href="#about-us" className="btn-square rounded-full bg-white p-0 shadow-md">
             <i className="bi bi-chevron-double-down"></i>
-          </button>
+          </a>
         </div>
       </div>
     </section>

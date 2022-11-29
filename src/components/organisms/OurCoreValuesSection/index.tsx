@@ -17,7 +17,7 @@ export const coreValuesData = [
 
 const OurCoreValuesSection = () => {
   return (
-    <section className="bg-[#F8F8F8] px-10 pt-14">
+    <section className="bg-[#F8F8F8] px-10 pt-14" id='core-values'>
       <h2 className="h3 mb-3 text-center">Our Core Values</h2>
       <div className="text-[#777777]">
         <p className="mb-3">

@@ -5,6 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 .trapezoid {
   border-bottom: 90px solid #4097db;
   border-left: 0 solid transparent;
@@ -31,4 +35,22 @@
 
 .h3 {
   @apply text-4xl font-medium text-[#029FE4];
+}
+
+#root {
+  @apply mx-auto shadow-lg lg:w-[450px];
+}
+
+body {
+  @apply bg-slate-100;
+}
+
+@media (min-width: 768px) {
+  .trapezoid {
+    border-right: 450px solid transparent;
+  }
+
+  .trapezoid-2 {
+    border-left: 450px solid transparent;
+  }
 }

@@ -24,7 +24,7 @@ const AboutUsSection = () => {
   const [currIndex, setCurrIndex] = useState(0);
 
   return (
-    <section className="px-10 py-12 pb-16">
+    <section className="px-10 py-12 pb-16 bg-white" id="about-us">
       <AboutUsCard
         title={aboutUsData[currIndex].title}
         subtitle={aboutUsData[currIndex].subtitle}

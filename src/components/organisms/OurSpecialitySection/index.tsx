@@ -40,7 +40,7 @@ const OurSpecialitySection = () => {
   };
 
   return (
-    <section className="bg-[#509FDD] py-9 px-5">
+    <section className="bg-[#509FDD] py-9 px-5" id="speciality">
       <div className="overflow-hidden bg-white px-8 py-9">
         <h3 className="mb-3 text-2xl font-bold text-[#029FE4]">OUR SPECIALITY</h3>
         <p className="text-sm text-[#303030]">
